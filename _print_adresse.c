@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_print_adresse - print the adresse
+ *_print_adresse - print the adresse of a pointer
  *@p: the address memory
  *Return: printed char
  */
