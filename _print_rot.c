@@ -26,5 +26,6 @@ int _print_rot(char *s)
 		else
 			write(1, &s[i], 1);
 	}
+
 	return (i);
 }
