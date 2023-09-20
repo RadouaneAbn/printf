@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strlen - this function compute the lenght of a string
  * @s: pointer to the string
@@ -11,6 +12,7 @@ int _strlen(char *s)
 
 	while (s[i])
 		i++;
+
 	return (i);
 }
 
