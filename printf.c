@@ -5,7 +5,7 @@ int print_char(char c);
 /**
  * _printf - this function prints anything
  * @format: the string
- * Return: 0
+ * Return: 0 or -1 in case of failure
  */
 
 int _printf(const char *format, ...)
@@ -146,6 +146,7 @@ int _printf(const char *format, ...)
 		}
 	}
 	va_end(args);
+
 	return (c);
 }
 
