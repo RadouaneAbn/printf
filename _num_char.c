@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _num_char - convert a unsigned integer to string
- * @n: the integer
- * @cs: conversion specifiers
+ * _num_char - convert a unsigned integer to string.
+ * @n: the integer.
+ * @cs: conversion specifiers.
  * @flag: 0 if number is positive
  *      1 if number is negative
  * Return: the number of characters printed
