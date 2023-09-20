@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_rev - print a string in revers
+ * _print_rev - print a string in reverse
  * @s: the string
  * Return: return the lenght of the string
  */
