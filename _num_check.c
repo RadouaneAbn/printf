@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _num_check - convert a negative number to positive
  * @n: the number
@@ -15,5 +16,6 @@ int _num_check(long int n, char cs)
 		flag = 1;
 		n *= -1;
 	}
+
 	return (_num_char(n, cs, flag));
 }
